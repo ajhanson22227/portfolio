@@ -1,0 +1,124 @@
+.intro-flex{
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-animations p{
+    font-size: 56px;
+
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.intro-animations p:nth-child(1){
+    border-right: black solid .15em;
+    width: 4.5em;
+    animation: typing 1.5s steps(20, end),
+        blink .5s step-end infinite alternate;
+    -webkit-animation: typing 1.5s steps(20, end),
+        blink .5s step-end infinite alternate;
+    -moz-animation: typing 1.5s steps(20, end),
+        blink .5s step-end infinite alternate;
+    -o-animation: typing 1.5s steps(20, end),
+        blink .5s step-end infinite alternate;
+    -ms-animation: typing 1.5s steps(20, end),
+        blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.intro-animations p:not(:first-child){
+    color: blue;
+}
+
+
+/* Animations */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        border: none;
+    }
+}
+@-moz-keyframes typing {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        border: none;
+    }
+}
+  @-o-keyframes typing {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        border: none;
+    }
+}
+  @-ms-keyframes typing {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        border: none;
+    }
+}
+  
+  @-webkit-keyframes typing {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+        border: none;
+    }
+}
+  
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        border-color: tranparent;
+    }
+}
+@-moz-keyframes blink {
+    50% {
+        border-color: tranparent;
+    }
+}
+@-o-keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@-ms-keyframes blink {
+    50% {
+        border-color: tranparent;
+    }
+}

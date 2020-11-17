@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
-import Intro from './Intro';
-import Home from './Home';
-import About from './About';
+import Intro from './components/Intro/Intro';
+import Home from './components/Home';
+import About from './components/About';
+
 
 
 const App = () => {
@@ -15,7 +16,6 @@ const App = () => {
                 <Route path="/about" component={About} />
                 <Redirect to="/" />
             </Switch>
-            
         </BrowserRouter>
     )
 };
