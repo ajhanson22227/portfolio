@@ -1,3 +1,3 @@
 # Portfolio Website
 
-This is my portfolio site made using React
+This is my portfolio site
