@@ -1,0 +1,26 @@
+.personal-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%
+}
+.personal-picture{
+    margin: 0 1em;
+}
+.about-content{
+    width: 500px;
+    margin: 0 1em;
+}
+
+.about-title{
+    font-family: jura;
+    font-size: 5em;
+    color: #307672;
+}
+
+.about-text{
+    font-family: jura;
+    font-size: 1em;
+    color: #1d1d1d;
+}
