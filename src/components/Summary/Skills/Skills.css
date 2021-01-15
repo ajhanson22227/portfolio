@@ -1,0 +1,44 @@
+.skills-outside-container{
+    background-color: #E9EEED;
+    height: 35%;
+    display: flex;
+}
+
+.skills-inside-container{
+    border: 1px solid blue;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.skills-title{
+    font-family: jura;
+    font-size: 2em;
+    color: #307672;
+}
+
+.skill{
+    width: fit-content;
+    padding: 0 1em;
+
+    font-size: 1.5em;
+    font-family: jura;
+}
+
+.b-right{
+    border-right: 1px black solid;
+}
