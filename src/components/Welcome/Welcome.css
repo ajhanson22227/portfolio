@@ -28,6 +28,9 @@
   position: absolute;
   bottom: 1em;
   
+
+  animation-duration: 2s;
+  animation-iteration-count: infinite
 }
 
 .arrow-down{
@@ -54,4 +57,18 @@
   .welcome-container{
     font-size: 4em;
   }
+}
+
+
+
+
+
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0) rotate(45deg); }
+  50%  { transform: translateY(-10px) rotate(45deg); }
+  100% { transform: translateY(0) rotate(45deg); }
 }
