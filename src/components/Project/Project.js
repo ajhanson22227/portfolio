@@ -11,11 +11,12 @@ const Project = () => {
           <div className="project-image"></div>
           <div className="project-info">
             <div className="project-title">Project 1</div>
+            <div className="project-tools">Make With CSS HTML JS</div>
             <div className="project-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </div>
-            <div className="project-tools">Make With CSS HTML JS</div>
+
             <div className="project-view">
               <div className="view-button">View </div>
               <div className="view-button"> Repo</div>
@@ -27,11 +28,12 @@ const Project = () => {
           <div className="project-image"></div>
           <div className="project-info">
             <div className="project-title">Project 2</div>
+            <div className="project-tools">Make With CSS HTML JS</div>
             <div className="project-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </div>
-            <div className="project-tools">Make With CSS HTML JS</div>
+
             <div className="project-view">
               <div className="view-button">View </div>
               <div className="view-button"> Repo</div>
@@ -43,11 +45,12 @@ const Project = () => {
           <div className="project-image"></div>
           <div className="project-info">
             <div className="project-title">Project 3</div>
+            <div className="project-tools">Make With CSS HTML JS</div>
             <div className="project-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </div>
-            <div className="project-tools">Make With CSS HTML JS</div>
+
             <div className="project-view">
               <div className="view-button">View </div>
               <div className="view-button"> Repo</div>
@@ -59,11 +62,12 @@ const Project = () => {
           <div className="project-image"></div>
           <div className="project-info">
             <div className="project-title">Project 4</div>
+            <div className="project-tools">Make With CSS HTML JS</div>
             <div className="project-desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </div>
-            <div className="project-tools">Make With CSS HTML JS</div>
+
             <div className="project-view">
               <div className="view-button">View </div>
               <div className="view-button"> Repo</div>
