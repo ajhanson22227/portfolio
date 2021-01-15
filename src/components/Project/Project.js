@@ -16,7 +16,10 @@ const Project = () => {
               eiusmod tempor incididunt ut labore et dolore.
             </div>
             <div className="project-tools">Make With CSS HTML JS</div>
-            <div className="project-view">View</div>
+            <div className="project-view">
+              <div className="view-button">View </div>
+              <div className="view-button"> Repo</div>
+            </div>
           </div>
         </div>
         {/* Proj 2 */}
@@ -29,7 +32,10 @@ const Project = () => {
               eiusmod tempor incididunt ut labore et dolore.
             </div>
             <div className="project-tools">Make With CSS HTML JS</div>
-            <div className="project-view">View</div>
+            <div className="project-view">
+              <div className="view-button">View </div>
+              <div className="view-button"> Repo</div>
+            </div>
           </div>
         </div>
         {/* Proj 3 */}
@@ -42,7 +48,10 @@ const Project = () => {
               eiusmod tempor incididunt ut labore et dolore.
             </div>
             <div className="project-tools">Make With CSS HTML JS</div>
-            <div className="project-view">View</div>
+            <div className="project-view">
+              <div className="view-button">View </div>
+              <div className="view-button"> Repo</div>
+            </div>
           </div>
         </div>
         {/* Proj 4 */}
@@ -55,7 +64,10 @@ const Project = () => {
               eiusmod tempor incididunt ut labore et dolore.
             </div>
             <div className="project-tools">Make With CSS HTML JS</div>
-            <div className="project-view">View</div>
+            <div className="project-view">
+              <div className="view-button">View </div>
+              <div className="view-button"> Repo</div>
+            </div>
           </div>
         </div>
       </div>
