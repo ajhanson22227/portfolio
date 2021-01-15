@@ -15,12 +15,34 @@
 
 .about-title{
     font-family: jura;
-    font-size: 5em;
+    font-size: 2em;
     color: #307672;
 }
 
 .about-text{
     font-family: jura;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #1d1d1d;
+}
+
+/* Laptops and smaller desktops */
+@media only screen and (min-width: 992px ){
+    .about-title{
+        font-size: 3em;
+    }
+
+    .about-text{
+        font-size: 1.4em;
+    }
+}
+
+/* Extra Large Screen */
+@media only screen and (min-width: 1500px ){
+    .about-title{
+        font-size: 4em;
+    }
+
+    .about-text{
+        font-size: 2em;
+    }
 }
