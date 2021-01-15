@@ -1,21 +1,23 @@
 .project-main-container{
+    background-color: #20524F;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 10em;
 }
 
 .topline{
     width: 125px;
     height: 2px;
-    background-color: #307672;
+    background-color: #F2F6F5;
     margin: 1em auto
 }
 
 .top-projects-title{
     text-align: center;
     font-family: jura;
-    color: #307672;
+    color: #F2F6F5;
     font-size: 4em;
     margin-bottom: 2em;
 }
@@ -47,7 +49,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-
+    padding-top: 2em;
     margin: 0 2em;
     min-height: 300px;
     width: 500px;
@@ -55,10 +57,15 @@
 .project-title{
     font-family: jura;
     font-size: 2em;
+    color: #F2F6F5
 }
 
 .project-desc{
-    color: #AAAAAA
+    color: #F2F6F5;
+}
+.project-tools{
+   color: #F2F6F5;
+   justify-self: center;
 }
 
 .project-view{
@@ -66,6 +73,8 @@
 }
 
 .view-button{
+    background-color: #F2F6F5;
+    color: #307672;
     border: 2px solid #307672;
     border-radius: 4px;
     margin-right: 1em;
