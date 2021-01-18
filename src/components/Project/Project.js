@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import constructionPic from "../../assets/conStruction.png";
-import tooDOo from "../../assets/TooDoo800.png";
-import brickbreak from "../../assets/brickbreaker.png";
-import discordBot from "../../assets/discordBot.png";
+import constructionPic from "../../assets/Construction.jpg";
+import tooDOo from "../../assets/TooDoo.jpg";
+import brickbreak from "../../assets/brickbreaker.jpg";
+import discordBot from "../../assets/botty.jpg";
 const Project = () => {
   return (
     <div className="project-main-container">
