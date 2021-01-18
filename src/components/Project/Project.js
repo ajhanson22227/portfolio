@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./Project.css";
 import constructionPic from "../../assets/conStruction.png";
 import tooDOo from "../../assets/TooDoo800.png";
+import brickbreak from "../../assets/brickbreaker.png";
+import cakeCard from "../../assets/cakeCard.png";
+import discordBot from "../../assets/discordBot.png";
 const Project = () => {
   return (
     <div className="project-main-container">
@@ -51,7 +54,9 @@ const Project = () => {
 
         {/* Proj 3 */}
         <div className="project">
-          <div className="project-image"></div>
+          <div className="project-image">
+            <img src={brickbreak} alt="construction calculator preview" />
+          </div>
           <div className="project-info">
             <div className="project-title">Project 3</div>
             <div className="project-tools">Make With CSS HTML JS</div>
@@ -69,7 +74,9 @@ const Project = () => {
 
         {/* Proj 4 */}
         <div className="project">
-          <div className="project-image"></div>
+          <div className="project-image">
+            <img src={discordBot} alt="construction calculator preview" />
+          </div>
           <div className="project-info">
             <div className="project-title">Project 4</div>
             <div className="project-tools">Make With CSS HTML JS</div>
