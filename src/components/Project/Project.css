@@ -10,7 +10,7 @@
 .topline{
     width: 125px;
     height: 2px;
-    background-color: #F2F6F5;
+    background-color: #75B7B3;
     margin: 1em auto
 }
 
@@ -73,9 +73,22 @@
 }
 
 .view-button{
-    background-color: #F2F6F5;
-    color: #307672;
-    border: 2px solid #307672;
+    background-color: #20524F;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    margin-right: 1em;
+    padding: 2px 0;
+    font-family: jura;
+    width: 100px;
+    text-align: center;
+}
+
+.view-button:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #20524F;
+    border: 2px solid #20524F;
     border-radius: 4px;
     margin-right: 1em;
     padding: 2px 0;
