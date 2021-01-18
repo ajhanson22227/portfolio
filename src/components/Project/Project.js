@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Project.css";
+import constructionPic from "../../assets/conStruction.png";
+import tooDOo from "../../assets/TooDoo800.png";
 const Project = () => {
   return (
     <div className="project-main-container">
       <div className="topline"></div>
       <div className="top-projects-title">PROJECTS</div>
+
       <div className="projects-container">
         {/* Proj 1 */}
         <div className="project">
-          <div className="project-image"></div>
+          <div className="project-image">
+            <img src={constructionPic} alt="construction calculator preview" />
+          </div>
           <div className="project-info">
             <div className="project-title">Project 1</div>
             <div className="project-tools">Make With CSS HTML JS</div>
@@ -23,9 +28,12 @@ const Project = () => {
             </div>
           </div>
         </div>
+
         {/* Proj 2 */}
         <div className="project">
-          <div className="project-image"></div>
+          <div className="project-image">
+            <img src={tooDOo} alt="construction calculator preview" />
+          </div>
           <div className="project-info">
             <div className="project-title">Project 2</div>
             <div className="project-tools">Make With CSS HTML JS</div>
@@ -40,6 +48,7 @@ const Project = () => {
             </div>
           </div>
         </div>
+
         {/* Proj 3 */}
         <div className="project">
           <div className="project-image"></div>
@@ -57,6 +66,7 @@ const Project = () => {
             </div>
           </div>
         </div>
+
         {/* Proj 4 */}
         <div className="project">
           <div className="project-image"></div>
