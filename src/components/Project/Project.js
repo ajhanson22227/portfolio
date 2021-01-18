@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Project.css";
 import constructionPic from "../../assets/conStruction.png";
 import tooDOo from "../../assets/TooDoo800.png";
 import brickbreak from "../../assets/brickbreaker.png";
-import cakeCard from "../../assets/cakeCard.png";
 import discordBot from "../../assets/discordBot.png";
 const Project = () => {
   return (
