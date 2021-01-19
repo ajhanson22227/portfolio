@@ -90,7 +90,7 @@ img{
 .view-button{
     background-color: #20524F;
     color: var(--projectTextColor);
-    border: 2px solid var(--backroundColor);
+    border: 2px solid var(--projectTextColor);
     border-radius: 4px;
     margin-right: 1em;
     padding: 2px 0;
@@ -101,7 +101,7 @@ img{
 
 .view-button:hover{
     cursor: pointer;
-    background-color: var(--backroundColor);
+    background-color: var(--projectTextColor);
     color: var(--projectBackgroundColor);
     border: 2px solid var(--projectBackgroundColor);
     border-radius: 4px;
