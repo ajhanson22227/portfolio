@@ -14,6 +14,10 @@ const Personal = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore.
         </div>
+        <div className="icon-container">
+          <i class="fab fa-github fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+        </div>
       </div>
     </div>
   );
