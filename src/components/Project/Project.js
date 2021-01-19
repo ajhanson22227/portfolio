@@ -21,11 +21,11 @@ const Project = () => {
             <div className="project-tools">Dart / Flutter</div>
             <div className="project-desc">
               Calculator made to reduce office time used to figure estimates for
-              gravely-to-pavement roads and alleys. Requests for estimates are
-              common in the summer season, and each time we have to write the
-              same formulas every time. This calculator takes the length, width,
-              and depth of the roadway and outputs the estimated materials that
-              would be requried.
+              gravel-to-pavement roads and alleys. Requests for estimates are
+              common in the summer season, and for each one, we have to write
+              down the same dozen formulas to figure the quantities. This
+              calculator takes the length, width, and depth of the roadway and
+              outputs the estimated material quantities that would be requried.
             </div>
 
             <div className="project-view">
