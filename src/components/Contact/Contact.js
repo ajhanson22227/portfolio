@@ -13,6 +13,10 @@ const Contact = () => {
         </div>
         <div className="contact-email">AJhanson4535345@gmail.com</div>
         <div className="contact-also">You can also find me here:</div>
+        <div className="icon-container">
+          <i class="fab fa-github fa-3x"></i>
+          <i class="fab fa-linkedin fa-3x"></i>
+        </div>
       </div>
     </div>
   );
