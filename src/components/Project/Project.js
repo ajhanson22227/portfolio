@@ -57,7 +57,7 @@ const Project = (props) => {
             />
           </div>
           <div className="project-info">
-            <div className="project-title">Too-Doo List</div>
+            <div className="project-title">Too-Doo</div>
             <div className="project-tools">
               JS / React / Express / MongoDB / HTML/ CSS{" "}
             </div>
