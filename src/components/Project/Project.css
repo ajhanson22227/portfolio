@@ -1,7 +1,7 @@
 .project-main-container{
     background-color: var(--projectBackgroundColor);
     min-height: 100vh;
-    min-height: calc(var(--vh, 1vh) * 100);
+    /* min-height: calc(var(--vh, 1vh) * 100); */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -37,7 +37,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 100%;
+    max-width: 95%;
     min-height: 400px;
     margin-bottom: 1em;
 }
