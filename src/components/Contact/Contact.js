@@ -14,8 +14,20 @@ const Contact = () => {
         <div className="contact-email">AJhanson4535345@gmail.com</div>
         <div className="contact-also">You can also find me here:</div>
         <div className="icon-container">
-          <i class="fab fa-github fa-3x"></i>
-          <i class="fab fa-linkedin fa-3x"></i>
+          <a
+            href="https://github.com/ajhanson22227"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github fa-3x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ajhanson22227/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
         </div>
       </div>
     </div>

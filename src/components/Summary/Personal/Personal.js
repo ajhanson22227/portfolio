@@ -15,8 +15,20 @@ const Personal = () => {
           eiusmod tempor incididunt ut labore et dolore.
         </div>
         <div className="icon-container">
-          <i class="fab fa-github fa-2x"></i>
-          <i class="fab fa-linkedin fa-2x"></i>
+          <a
+            href="https://github.com/ajhanson22227"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ajhanson22227/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
         </div>
       </div>
     </div>
