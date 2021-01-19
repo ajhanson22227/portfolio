@@ -8,8 +8,7 @@ const Contact = () => {
         <div className="contact-topline"></div>
         <div className="contact-title">CONTACT</div>
         <div className="contact-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore.
+          If you would like to send me a message, click on the e-mail link below
         </div>
         <div className="contact-email">
           <a href="mailto:ajhanson.dev@gmail.com">ajhanson.dev@gmail.com</a>
