@@ -40,6 +40,14 @@
     color: var(--normalTextColor)
 }
 
+.icon-container{
+    color: var(--normalTextColor)
+}
+
+.icon-container > *{
+    margin: 0 .5em;
+}
+
 @media only screen and (max-width: 802px){
     .contact-content-container{
         width: 100%;
