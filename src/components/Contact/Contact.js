@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
-    <div className="contact-container">
+    <div ref={props.contactRef} className="contact-container">
       <div className="contact-content-container">
         <div className="contact-topline"></div>
         <div className="contact-title">CONTACT</div>

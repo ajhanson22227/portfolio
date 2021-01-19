@@ -4,9 +4,10 @@ import constructionPic from "../../assets/Construction.jpg";
 import tooDOo from "../../assets/TooDoo.jpg";
 import brickbreak from "../../assets/brickbreaker.jpg";
 import discordBot from "../../assets/botty.jpg";
-const Project = () => {
+
+const Project = (props) => {
   return (
-    <div className="project-main-container">
+    <div ref={props.projectRef} className="project-main-container">
       <div className="topline"></div>
       <div className="top-projects-title">PROJECTS</div>
 
