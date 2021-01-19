@@ -9,10 +9,21 @@ const Personal = () => {
         <img src={facepic} alt="adam, the site creator" />
       </div>
       <div className="about-content">
-        <div className="about-title">About yo</div>
+        <div className="about-title">About Me</div>
         <div className="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore.
+          Hi, I am Adam!
+          <br />I am a fullstack web developer with a degree in Computer Science
+          from Dakota State University. I find it exciting when I run into a
+          problem that I feel could be solved using my programming knowledge.
+          This drive has ended up with helpful projects such as an app used in
+          my current office and a Discord bot that makes some tabletop games
+          easier.
+          {/* I graduated with a Bachelor's of Science in Computer Science from
+          Dakota State University in 2018. One of my favorite things about
+          programming is typing life into what was once an empty file, and
+          watching the changes happen over time. <br /> <br />
+          Computers and technology have been my hobby since before I could walk
+          which is why I became a programmer. */}
         </div>
         <div className="icon-container">
           <a
