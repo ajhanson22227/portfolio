@@ -1,13 +1,21 @@
+:root{
+    --normalTextColor: #307672;
+    --projectTextColor: #F2F6F5;
+    --projectBackgroundColor: #20524F;
+    --backgroundColor: #F2F6F5
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #F2F6F5;
+    background-color: var(--backgroundColor);
 }
 html, body{
     max-width: 100%;
     max-height: 100%;
 
 }
+
