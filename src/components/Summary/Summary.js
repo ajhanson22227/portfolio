@@ -3,9 +3,9 @@ import Personal from "./Personal/Personal";
 import Skills from "./Skills/Skills";
 import "./Summary.css";
 
-const Summary = () => {
+const Summary = (props) => {
   return (
-    <div className="summary-container">
+    <div ref={props.aboutRef} className="summary-container">
       <Personal />
       <Skills />
     </div>
