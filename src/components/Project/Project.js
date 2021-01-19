@@ -29,8 +29,20 @@ const Project = () => {
             </div>
 
             <div className="project-view">
-              <div className="view-button">View </div>
-              <div className="view-button"> Repo</div>
+              <a
+                href="https://constructionnumbers.web.app/#/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">View</div>
+              </a>
+              <a
+                href="https://github.com/ajhanson22227/constructionNumbers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">Repo</div>
+              </a>
             </div>
           </div>
         </div>
@@ -57,8 +69,20 @@ const Project = () => {
             </div>
 
             <div className="project-view">
-              <div className="view-button">View </div>
-              <div className="view-button"> Repo</div>
+              <a
+                href="https://ajhanson22227.github.io/ToDo-List-React"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">View</div>
+              </a>
+              <a
+                href="https://github.com/ajhanson22227/ToDo-List-React"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">Repo</div>
+              </a>
             </div>
           </div>
         </div>
@@ -79,7 +103,13 @@ const Project = () => {
             </div>
 
             <div className="project-view">
-              <div className="view-button"> Repo</div>
+              <a
+                href="https://github.com/ajhanson22227/Brick-Breaker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">Repo</div>
+              </a>
             </div>
           </div>
         </div>
@@ -102,7 +132,13 @@ const Project = () => {
             </div>
 
             <div className="project-view">
-              <div className="view-button"> Repo</div>
+              <a
+                href="https://github.com/ajhanson22227/discord_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="view-button">Repo</div>
+              </a>
             </div>
           </div>
         </div>

@@ -11,7 +11,9 @@ const Contact = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore.
         </div>
-        <div className="contact-email">AJhanson4535345@gmail.com</div>
+        <div className="contact-email">
+          <a href="mailto:ajhanson.dev@gmail.com">ajhanson.dev@gmail.com</a>
+        </div>
         <div className="contact-also">You can also find me here:</div>
         <div className="icon-container">
           <a
