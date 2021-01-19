@@ -1,5 +1,5 @@
 .project-main-container{
-    background-color: #20524F;
+    background-color: var(--projectBackgroundColor);
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
     display: flex;
@@ -18,7 +18,7 @@
 .top-projects-title{
     text-align: center;
     font-family: jura;
-    color: #F2F6F5;
+    color: var(--projectTextColor);
     font-size: 4em;
     margin-bottom: 2em;
 }
@@ -72,14 +72,14 @@ img{
 .project-title{
     font-family: jura;
     font-size: 2em;
-    color: #F2F6F5
+    color: var(--projectTextColor)
 }
 
 .project-desc{
-    color: #F2F6F5;
+    color: var(--projectTextColor);
 }
 .project-tools{
-   color: #F2F6F5;
+   color: var(--projectTextColor);
    justify-self: center;
 }
 
@@ -89,8 +89,8 @@ img{
 
 .view-button{
     background-color: #20524F;
-    color: #F2F6F5;
-    border: 2px solid #F2F6F5;
+    color: var(--projectTextColor);
+    border: 2px solid var(--backroundColor);
     border-radius: 4px;
     margin-right: 1em;
     padding: 2px 0;
@@ -101,9 +101,9 @@ img{
 
 .view-button:hover{
     cursor: pointer;
-    background-color: #F2F6F5;
-    color: #20524F;
-    border: 2px solid #20524F;
+    background-color: var(--backroundColor);
+    color: var(--projectBackgroundColor);
+    border: 2px solid var(--projectBackgroundColor);
     border-radius: 4px;
     margin-right: 1em;
     padding: 2px 0;

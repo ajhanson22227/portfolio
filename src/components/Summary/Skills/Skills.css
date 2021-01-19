@@ -30,7 +30,7 @@
     text-align: center;
     font-family: jura;
     font-size: 1.5em;
-    color: #307672;
+    color: var(--normalTextColor);
 }
 
 .skill{

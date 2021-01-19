@@ -16,7 +16,7 @@
 .about-title{
     font-family: jura;
     font-size: 2em;
-    color: #307672;
+    color: var(--normalTextColor);
 }
 
 .about-text{
