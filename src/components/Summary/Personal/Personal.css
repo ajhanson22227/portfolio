@@ -9,8 +9,17 @@
     margin: 0 1em;
 }
 .about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
     width: 500px;
     margin: 0 1em;
+}
+
+
+.about-content > *{
+    margin-bottom: 1em;
 }
 
 .about-title{
@@ -25,6 +34,7 @@
     color: #1d1d1d;
 }
 
+
 /* Laptops and smaller desktops */
 @media only screen and (min-width: 992px ){
     .about-title{
@@ -32,17 +42,17 @@
     }
 
     .about-text{
-        font-size: 1.4em;
+        font-size: 1em;
     }
 }
 
 /* Extra Large Screen */
 @media only screen and (min-width: 1500px ){
     .about-title{
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .about-text{
-        font-size: 2em;
+        font-size: 1em;
     }
 }
