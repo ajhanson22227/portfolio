@@ -1,7 +1,7 @@
 import React from "react";
 import "./Welcome.css";
 
-const WelcomePage = () => {
+const WelcomePage = (props) => {
   return (
     <div className="welcome-container">
       <div className="welcome-content">
@@ -10,7 +10,10 @@ const WelcomePage = () => {
       <div className="welcome-content">
         I AM A <span className="bold-text">FULL STACK DEVELOPER</span>
       </div>
-      <div className="welcome-content arrow arrow-down bounce-2"></div>
+      <div
+        onClick={() => props.ScrollTo(props.aboutRef)}
+        className="welcome-content arrow arrow-down bounce-2"
+      ></div>
     </div>
   );
 };
