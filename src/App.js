@@ -1,13 +1,24 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Welcome from "./components/Welcome/WelcomePage";
 import Summary from "./components/Summary/Summary";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   const aboutRef = useRef();
-  // const projectRef = useRef();
-  // const contactRef = useRef();
+  const [isScrolled, setIsScrolled] = useState(false);
+  const projectRef = useRef();
+  const contactRef = useRef();
+  useEffect(() => {
+    const handleScroll = () => {
+      window.pageYOffset >= window.innerHeight - 20
+        ? setIsScrolled(true)
+        : setIsScrolled(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const ScrollTo = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -16,9 +27,17 @@ const App = () => {
   return (
     <div className="main-container">
       <Welcome aboutRef={aboutRef} ScrollTo={ScrollTo} />
-      <Summary aboutRef={aboutRef} ScrollTo={ScrollTo} />
-      <Project />
-      <Contact />
+      {isScrolled && (
+        <Navbar
+          aboutRef={aboutRef}
+          projectRef={projectRef}
+          contactRef={contactRef}
+          ScrollTo={ScrollTo}
+        />
+      )}
+      <Summary aboutRef={aboutRef} />
+      <Project projectRef={projectRef} />
+      <Contact contactRef={contactRef} />
     </div>
   );
 };
