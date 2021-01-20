@@ -55,6 +55,11 @@
     }
 }
 
+@media screen and (max-width: 450px) and (max-height: 667px){
+    .skills-outside-container{
+        bottom: 0;
+    }
+}
 /* @media only screen and (max-width: 1300px){
     .skills-inside-container{
         width: 670px;
