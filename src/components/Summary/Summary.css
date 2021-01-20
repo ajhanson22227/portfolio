@@ -4,3 +4,9 @@
     /* height: calc(var(--vh, 1vh) * 100); */
     width: 100%
 }
+
+@media only screen and (max-width: 1400px){
+    .summary-container{
+        padding-top: 3.2em;
+    }
+}
