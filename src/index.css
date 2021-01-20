@@ -3,7 +3,7 @@
     --projectTextColor: #F2F6F5;
     --projectBackgroundColor: #20524F;
     --backgroundColor: #F2F6F5;
-    --navbarBackgroundColor: #E9EEED
+    --navbarBackgroundColor: #E9EEED;
 }
 
 *{
@@ -18,6 +18,22 @@ html, body{
     max-width: 100%;
     max-height: 100%;
 
+}
+.df{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
 }
 
 a,
