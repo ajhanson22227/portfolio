@@ -34,12 +34,20 @@
 }
 
 .contact-desc{
+    font-family: 'Open Sans';
     text-align: center;
     width: 50%;
 }
 
 .contact-email{
-    color: var(--normalTextColor)
+    color: var(--normalTextColor);
+    font-family: 'Jura';
+    margin-bottom: 3em;
+}
+
+
+.contact-also{
+    font-family: 'Open Sans';
 }
 
 .icon-container{
