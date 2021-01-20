@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Navbar = (props) => {
   return (
-    <div className="navbar-container fade-in">
+    <div className="navbar-container">
       <div className="navbar-content">
         <div
           onClick={() => props.ScrollTo(props.aboutRef)}
