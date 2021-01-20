@@ -58,7 +58,7 @@ img{
     height: 100%;
 }
 .project-info{
-
+    font-family: 'Open Sans';
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -81,6 +81,7 @@ img{
 .project-tools{
    color: var(--projectTextColor);
    justify-self: center;
+   font-family: 'Jura';
 }
 
 .project-view{
@@ -111,6 +112,7 @@ img{
     width: 100px;
     text-align: center;
 }
+
 
 @media only screen and (max-width: 800px) {
     .project{
@@ -144,6 +146,7 @@ img{
         object-fit: cover;
     }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
