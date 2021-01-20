@@ -3,7 +3,7 @@ import "./Welcome.css";
 
 const WelcomePage = (props) => {
   return (
-    <div className="welcome-container">
+    <div className="welcome-container" ref={props.welcomeRef}>
       <div className="welcome-content">
         HELLO I AM <span className="bold-text">ADAM HANSON</span>
       </div>
