@@ -7,6 +7,22 @@ const Personal = () => {
     <div className="personal-container df-row">
       <div className="personal-picture">
         <img src={facepic} alt="adam, the site creator" />
+        <div className="icon-container">
+          <a
+            href="https://github.com/ajhanson22227"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ajhanson22227/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin fa-2x"></i>
+          </a>
+        </div>
       </div>
       <div className="about-content">
         <div className="about-title">About Me</div>
@@ -24,22 +40,6 @@ const Personal = () => {
           watching the changes happen over time. <br /> <br />
           Computers and technology have been my hobby since before I could walk
           which is why I became a programmer. */}
-        </div>
-        <div className="icon-container">
-          <a
-            href="https://github.com/ajhanson22227"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github fa-2x"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ajhanson22227/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-linkedin fa-2x"></i>
-          </a>
         </div>
       </div>
     </div>
