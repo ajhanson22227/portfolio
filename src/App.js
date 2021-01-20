@@ -6,10 +6,12 @@ import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
-  const aboutRef = useRef();
   const [isScrolled, setIsScrolled] = useState(false);
+  const aboutRef = useRef();
   const projectRef = useRef();
   const contactRef = useRef();
+  const welcomeRef = useRef();
+
   useEffect(() => {
     const handleScroll = () => {
       window.pageYOffset >= window.innerHeight - 20
@@ -26,9 +28,14 @@ const App = () => {
 
   return (
     <div className="main-container">
-      <Welcome aboutRef={aboutRef} ScrollTo={ScrollTo} />
+      <Welcome
+        welcomeRef={welcomeRef}
+        aboutRef={aboutRef}
+        ScrollTo={ScrollTo}
+      />
       {isScrolled && (
         <Navbar
+          welcomeRef={welcomeRef}
           aboutRef={aboutRef}
           projectRef={projectRef}
           contactRef={contactRef}
