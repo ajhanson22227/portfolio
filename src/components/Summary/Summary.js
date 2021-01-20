@@ -7,7 +7,7 @@ const Summary = (props) => {
   return (
     <div ref={props.aboutRef} className="summary-container">
       <Personal />
-      <Skills />
+      {/* <Skills /> */}
     </div>
   );
 };
