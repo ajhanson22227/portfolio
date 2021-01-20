@@ -4,6 +4,7 @@ import Summary from "./components/Summary/Summary";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
+import ToTop from "./components/Navbar/ToTopButton";
 
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,6 +42,7 @@ const App = () => {
         contactRef={contactRef}
         ScrollTo={ScrollTo}
       />
+      {isScrolled && <ToTop welcomeRef={welcomeRef} ScrollTo={ScrollTo} />}
 
       <Summary aboutRef={aboutRef} />
       <Project projectRef={projectRef} />
