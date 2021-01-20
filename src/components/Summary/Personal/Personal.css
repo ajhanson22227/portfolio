@@ -7,6 +7,13 @@
 }
 .personal-picture{
     margin: 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.personal-picture > * {
+    margin-bottom: 1em;
 }
 .about-content{
     display: flex;

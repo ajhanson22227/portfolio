@@ -1,8 +1,11 @@
 .summary-container{
     position: relative;
-    height: 100vh;
+    min-height: 70vh;
+    height: 100%;
     /* height: calc(var(--vh, 1vh) * 100); */
-    width: 100%
+    width: 100%;
+    padding-top: 5em;
+    bottom: 2em;
 }
 
 @media only screen and (max-width: 1400px){
