@@ -33,15 +33,15 @@ const App = () => {
         aboutRef={aboutRef}
         ScrollTo={ScrollTo}
       />
-      {isScrolled && (
-        <Navbar
-          welcomeRef={welcomeRef}
-          aboutRef={aboutRef}
-          projectRef={projectRef}
-          contactRef={contactRef}
-          ScrollTo={ScrollTo}
-        />
-      )}
+
+      <Navbar
+        welcomeRef={welcomeRef}
+        aboutRef={aboutRef}
+        projectRef={projectRef}
+        contactRef={contactRef}
+        ScrollTo={ScrollTo}
+      />
+
       <Summary aboutRef={aboutRef} />
       <Project projectRef={projectRef} />
       <Contact contactRef={contactRef} />
