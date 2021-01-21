@@ -5,12 +5,12 @@
 .personal-picture{
     align-self: center;
     margin: 0 1em;
-    width: 250px;
-    height: 250px;
+    /* width: 250px;
+    height: 250px; */
     
 }
 .personal-picture > * {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .about-content{
