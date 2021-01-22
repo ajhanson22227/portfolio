@@ -1,8 +1,7 @@
 .personal-container{
-    width: 60%;
     display: grid;
-    grid-template-columns: 300px 400px 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 300px 400px;
+    grid-template-rows: 100px 100px 100px 100px;
     column-gap: 5em;
 }
 
@@ -33,6 +32,8 @@
     color: #307672;
     font-size: 2em;
 
+    font-family: 'Jura';
+
     justify-self: start;
     align-self: center;
 }
@@ -51,12 +52,12 @@
 
 .personal-skills-title{
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
 
     font-family: jura;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--normalTextColor);
 
     justify-self: start;
@@ -65,18 +66,34 @@
 
 .personal-skills-container{
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    
-
     align-self: center;
+
+    font-size: 1em;
 }
 
-.personal-skills-container > *{
-    margin-right: 1em;
+
+.skills-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-row > *{
+ margin-right: .7em;   
+}
+
+@media only screen and (max-width: 700px){
+    .personal-container{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 100px 100px 100px 100px;
+        column-gap: 5em;
+    }
+    
 }
