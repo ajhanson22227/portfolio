@@ -32,9 +32,8 @@
 
 .skill{
     width: fit-content;
-    padding: 0 1em;
-
-    font-size: .8em;
+    padding-right: 1em;
+    font-size: .5em;
     font-family: jura;
 }
 
