@@ -4,8 +4,6 @@ import "../Skills/Skills.css";
 import facepic from "../../../assets/facepic.png";
 
 const Personal = () => {
-  const isMobile = window.innerWidth < 500;
-
   return (
     <div className="personal-container">
       <div className="personal-picture">
@@ -50,21 +48,13 @@ const Personal = () => {
           <p className="skill b-right">CSS</p>
           <p className="skill b-right">JS</p>
           <p className="skill b-right">React</p>
-          {!isMobile ? <p className="skill">NodeJS + Express</p> : null}
+          <p className="skill">NodeJS + Express</p>
         </div>
         <div className="skills-row">
           {" "}
-          {isMobile ? <p className="skill b-right">NodeJS + Express</p> : null}
-          <p className={!isMobile ? "skill b-right" : "skill"}>
-            MongoDB + Mongoose
-          </p>
-          {!isMobile ? <p className="skill">C++</p> : null}
+          <p className="skill b-right">MongoDB + Mongoose</p>
+          <p className="skill">C++</p>
         </div>
-        {isMobile ? (
-          <div className="skills-row">
-            <p className="skill">C++</p>
-          </div>
-        ) : null}
       </div>
     </div>
   );
