@@ -69,3 +69,10 @@
     }
 
 }
+
+@media only screen and (max-height: 900px){
+    .contact-container{
+        min-height: 500px;
+        max-height: 700px;
+    }
+}
