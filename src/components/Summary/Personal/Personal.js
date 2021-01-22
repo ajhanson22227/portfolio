@@ -43,13 +43,18 @@ const Personal = () => {
         Languages, Libraries & Frameworks
       </div>
       <div className="personal-skills-container">
-        <p className="skill b-right">HTML</p>
-        <p className="skill b-right">CSS</p>
-        <p className="skill b-right">JS</p>
-        <p className="skill b-right">React</p>
-        <p className="skill b-right">NodeJS + Express</p>
-        <p className="skill b-right">MongoDB + Mongoose</p>
-        <p className="skill">C++</p>
+        <div className="skills-row">
+          <p className="skill b-right">HTML</p>
+          <p className="skill b-right">CSS</p>
+          <p className="skill b-right">JS</p>
+          <p className="skill b-right">React</p>
+          <p className="skill">NodeJS + Express</p>
+        </div>
+        <div className="skills-row">
+          {" "}
+          <p className="skill b-right">MongoDB + Mongoose</p>
+          <p className="skill">C++</p>
+        </div>
       </div>
     </div>
   );
