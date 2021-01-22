@@ -42,7 +42,9 @@ const App = () => {
         contactRef={contactRef}
         ScrollTo={ScrollTo}
       />
-      {isScrolled && <ToTop welcomeRef={welcomeRef} ScrollTo={ScrollTo} />}
+      {isScrolled ? (
+        <ToTop welcomeRef={welcomeRef} ScrollTo={ScrollTo} />
+      ) : null}
 
       <Summary aboutRef={aboutRef} />
       <Project projectRef={projectRef} />
