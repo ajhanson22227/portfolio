@@ -96,7 +96,8 @@
     .personal-container{
         padding: 0 .5em;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 100px);
+        /* grid-template-rows: repeat(8, 100px); */
+        grid-auto-rows: min-content;
     }
 
     .personal-picture{
@@ -128,6 +129,7 @@
         grid-column-end: 2;
         grid-row-start: 5;
         grid-row-end: 7;
+
     
         font-family: 'Open Sans';
     
@@ -141,6 +143,7 @@
         grid-row-start: 7;
         grid-row-end: 8;
         align-self: center;
+        padding: 1em 0
     }
     
     .personal-skills-container{
