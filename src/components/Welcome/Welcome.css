@@ -1,4 +1,5 @@
 .welcome-container{
+  background-color: #3B4341;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +13,7 @@
     height: calc(var(--vh, 1vh) * 100);
     text-align: center;
     position: relative;
+    color: #FFFFFF;
 }
 
 .welcome-content{
@@ -26,7 +28,7 @@
 }
 
 .arrow{
-  border: 1px solid black;
+  border: 1px solid #75B7B3;
   border-width: 0 2px 2px 0;
   display: inline-block;
   width: 25px;
@@ -44,7 +46,7 @@
 }
 
 .bold-text{
-    color: var(--normalTextColor)
+    color: #56BDB7
 }
 
 @media only screen and (min-width: 768px) {

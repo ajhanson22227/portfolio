@@ -5,10 +5,10 @@ const WelcomePage = (props) => {
   return (
     <div className="welcome-container" ref={props.welcomeRef}>
       <div className="welcome-content">
-        HELLO I AM <span className="bold-text">ADAM HANSON</span>
+        Hello, I am <span className="bold-text">ADAM HANSON</span>
       </div>
       <div className="welcome-content">
-        I AM A <span className="bold-text">FULL STACK DEVELOPER</span>
+        I am a <span className="bold-text">FULL STACK DEVELOPER</span>
       </div>
       <div
         className="welcome-content arrow-container"
