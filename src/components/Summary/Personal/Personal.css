@@ -1,0 +1,82 @@
+.personal-container{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 300px 400px 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    column-gap: 5em;
+}
+
+.personal-picture{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.personal-icons{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    justify-content: space-evenly !important;
+    margin: auto;
+    width: 50%;
+}
+
+.personal-about{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color: #307672;
+    font-size: 2em;
+
+    justify-self: start;
+    align-self: center;
+}
+
+.personal-about-content{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    font-family: 'Open Sans';
+
+    align-self: start;
+}
+
+
+.personal-skills-title{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    font-family: jura;
+    font-size: 1.5em;
+    color: var(--normalTextColor);
+
+    justify-self: start;
+    align-self: start;
+}
+
+.personal-skills-container{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    align-self: center;
+}
+
+.personal-skills-container > *{
+    margin-right: 1em;
+}
