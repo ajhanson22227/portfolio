@@ -28,7 +28,7 @@ const Personal = () => {
         </a>
       </div>
 
-      <div className="personal-about">ABOUT YO</div>
+      <div className="personal-about">ABOUT ME</div>
 
       <div className="personal-about-content">
         Hi, I am Adam!
