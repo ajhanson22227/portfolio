@@ -88,6 +88,14 @@ img{
    font-family: 'Jura';
 }
 
+.project-line{
+    width: 150px;
+    height: 2px;
+    background-color: var(--projectTextColor);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .project-view{
     display: flex
 }
@@ -141,6 +149,14 @@ img{
 
     .project-info > *{
         margin-top: .5em;
+    }
+
+    .project-line{
+        width: 100px;
+        height: 2px;
+        background-color: var(--projectTextColor);
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 
     .project-image{
