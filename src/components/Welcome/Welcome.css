@@ -21,10 +21,13 @@
 }
 
 .arrow-container{
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   position: absolute;
   bottom: 1em;
+}
+.arrow-container:hover{
+  cursor: pointer;
 }
 
 .arrow{

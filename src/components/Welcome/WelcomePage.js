@@ -11,10 +11,10 @@ const WelcomePage = (props) => {
         I am a <span className="bold-text">FULL STACK DEVELOPER</span>
       </div>
       <div
-        className="welcome-content arrow-container"
+        className="arrow-container"
         onClick={() => props.ScrollTo(props.aboutRef)}
       >
-        <div className="welcome-content arrow arrow-down bounce-2"></div>
+        <div className="arrow arrow-down bounce-2"></div>
       </div>
     </div>
   );
