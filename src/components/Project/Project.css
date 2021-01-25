@@ -13,7 +13,8 @@
     width: 125px;
     height: 2px;
     background-color: #75B7B3;
-    margin: 1em auto
+    margin: auto;
+    margin-bottom: 1em;
 }
 
 .top-projects-title{
