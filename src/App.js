@@ -40,6 +40,7 @@ const App = () => {
         aboutRef={aboutRef}
         projectRef={projectRef}
         contactRef={contactRef}
+        isScrolled={isScrolled}
         ScrollTo={ScrollTo}
       />
       {isScrolled ? (
