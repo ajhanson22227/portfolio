@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return (
     <div
       className={`navbar-container ${
-        props.isScrolled ? "nav-dark" : "nav-light"
+        props.isScrolled ? "nav-light" : "nav-dark"
       }`}
     >
       <div className="navbar-content">
