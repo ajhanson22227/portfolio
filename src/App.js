@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      window.pageYOffset >= window.innerHeight - 50
+      window.pageYOffset >= window.innerHeight - window.innerHeight / 1.5
         ? setIsScrolled(true)
         : setIsScrolled(false);
     };
