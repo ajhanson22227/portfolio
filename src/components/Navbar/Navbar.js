@@ -3,7 +3,11 @@ import "./Navbar.css";
 
 const Navbar = (props) => {
   return (
-    <div className="navbar-container">
+    <div
+      className={`navbar-container ${
+        props.isScrolled ? "nav-dark" : "nav-light"
+      }`}
+    >
       <div className="navbar-content">
         <div
           onClick={() => props.ScrollTo(props.aboutRef)}
