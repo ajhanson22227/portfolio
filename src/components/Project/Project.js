@@ -20,7 +20,7 @@ const Project = (props) => {
           <div className="project-info">
             <div className="project-title">Construction Calculator</div>
             <div className="project-tools">Dart / Flutter</div>
-            <div className="project-line"></div>
+
             <div className="project-desc">
               Calculator made to reduce office time used to figure estimates for
               gravel-to-pavement roads and alleys. Requests for estimates are
@@ -62,7 +62,7 @@ const Project = (props) => {
             <div className="project-tools">
               JS / React / Express / MongoDB / HTML/ CSS{" "}
             </div>
-            <div className="project-line"></div>
+
             <div className="project-desc">
               Too-Doo is a todo list with unique projects for individual users.
               New users will create an account which will start with 0 projects
@@ -98,7 +98,7 @@ const Project = (props) => {
           <div className="project-info">
             <div className="project-title">Brick Breaker</div>
             <div className="project-tools">C++ / SFML</div>
-            <div className="project-line"></div>
+
             <div className="project-desc">
               Brick Breaker was inspired by the original Breakout game. It
               involves using a paddle at the bottom, to hit the ball into the
@@ -126,7 +126,7 @@ const Project = (props) => {
           <div className="project-info">
             <div className="project-title">Discord Bot</div>
             <div className="project-tools">JS</div>
-            <div className="project-line"></div>
+
             <div className="project-desc">
               This Discord bot was made for my tabletop game group of friends.
               When we started a new game which had a complicated dice system
