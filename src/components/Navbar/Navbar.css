@@ -12,11 +12,11 @@
   height: 75px
 }
 .nav-dark .navbar-item:hover{
-  color: #FBD037;
+  color: var(--yellowOnDark);
 }
 
 .nav-dark .navbar-item::before{
-  background-color: #FBD037;
+  background-color: var(--yellowOnDark);
 }
 
 .nav-light{
@@ -27,11 +27,11 @@
 }
 
 .nav-light .navbar-item:hover{
-  color: #DDBC45;
+  color: var(--yellowOnLight);
 }
 
 .nav-light .navbar-item::before{
-  background-color: #DDBC45;
+  background-color: var(--yellowOnLight);
 }
 
 .navbar-content{
@@ -79,6 +79,9 @@
 
   animation-duration: .5s;
   animation-iteration-count: 1;
+}
+.btt:hover{
+  cursor: pointer;
 }
 
 .fade-in {
