@@ -1,9 +1,9 @@
 :root{
     --normalTextColor: #307672;
     --projectTextColor: #F2F6F5;
-    --projectBackgroundColor: #20524F;
+    --projectBackgroundColor: #3B4341;
     --backgroundColor: #F2F6F5;
-    --navbarBackgroundColor: #E9EEED;
+    --navbarBackgroundColor: #307672;
     --yellowOnDark: #FBD037;
     --yellowOnLight: #C89C00;
 }
