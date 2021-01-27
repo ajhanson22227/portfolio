@@ -42,6 +42,9 @@
   animation-duration: 1.25s;
   animation-iteration-count: infinite
 }
+.arrow-container:hover .arrow{
+  border-color: #FBD037;
+}
 
 .arrow-down{
     transform: rotate(45deg);
