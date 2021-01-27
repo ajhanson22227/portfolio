@@ -1,7 +1,7 @@
 import React from "react";
 import "./Personal.css";
 import "../Skills/Skills.css";
-import facepic from "../../../assets/facepic.png";
+import facepic from "../../../assets/boomboom.jpg";
 
 const Personal = () => {
   return (
