@@ -13,7 +13,7 @@
 }
 
 .personal-picture img{
-    box-shadow: 0 0 10em rgba(0,0,0,1);
+    box-shadow: 0 0 5px rgba(0,0,0,1);
 }
 .personal-icons{
     grid-column-start: 1;
@@ -27,7 +27,7 @@
 }
 
 .picon:hover{
-    color: #DDBC45
+    color: var(--yellowOnLight)
 }
 
 .personal-about{
