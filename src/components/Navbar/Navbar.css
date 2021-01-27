@@ -12,11 +12,11 @@
   height: 75px
 }
 .nav-dark .navbar-item:hover{
-  color: gold;
+  color: #FBD037;
 }
 
 .nav-dark .navbar-item::before{
-  background-color: gold;
+  background-color: #FBD037;
 }
 
 .nav-light{
@@ -27,11 +27,11 @@
 }
 
 .nav-light .navbar-item:hover{
-  color: black;
+  color: #DDBC45;
 }
 
 .nav-light .navbar-item::before{
-  background-color: black;
+  background-color: #DDBC45;
 }
 
 .navbar-content{
