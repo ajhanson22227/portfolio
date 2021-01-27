@@ -12,7 +12,7 @@
 .topline{
     width: 125px;
     height: 2px;
-    background-color: #75B7B3;
+    background-color: var(--yellowOnLight);
     margin: auto;
     margin-bottom: 1em;
 }
@@ -114,9 +114,8 @@ img{
 
 .view-button:hover{
     cursor: pointer;
-    background-color: var(--projectTextColor);
-    color: var(--projectBackgroundColor);
-    border: 2px solid var(--projectBackgroundColor);
+    color: var(--yellowOnDark);
+    border: 2px solid var(--yellowOnLight);
     border-radius: 4px;
     margin-right: 1em;
     
