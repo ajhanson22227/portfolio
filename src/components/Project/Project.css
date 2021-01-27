@@ -30,7 +30,7 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding-top: 3em;
+    padding-top: 5em;
     align-items: center;
 }
 
@@ -83,7 +83,7 @@ img{
     color: var(--projectTextColor);
 }
 .project-tools{
-   color: var(--yellowOnDark);
+   color: #CCCCCC;
    justify-self: center;
    font-family: 'Jura';
 }
