@@ -31,7 +31,7 @@
 }
 
 .arrow{
-  border: 1px solid #75B7B3;
+  border: 1px solid var(--yellowOnDark);
   border-width: 0 2px 2px 0;
   display: inline-block;
   width: 25px;
@@ -41,9 +41,6 @@
 
   animation-duration: 1.25s;
   animation-iteration-count: infinite
-}
-.arrow-container:hover .arrow{
-  border-color: #FBD037;
 }
 
 .arrow-down{
