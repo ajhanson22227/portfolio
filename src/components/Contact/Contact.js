@@ -20,14 +20,14 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github fa-3x"></i>
+            <i className="fab fa-github fa-3x picon"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/ajhanson22227/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin fa-3x"></i>
+            <i className="fab fa-linkedin fa-3x picon"></i>
           </a>
         </div>
       </div>
