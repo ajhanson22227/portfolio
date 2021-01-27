@@ -21,17 +21,17 @@
 
 .nav-light{
   background-color: var(--navbarBackgroundColor);
-  color: var(--normalTextColor);
+  color: #FFFFFF;
   box-shadow: 0 0 5px rgba(0,0,0,.4);
   height: 50px
 }
 
 .nav-light .navbar-item:hover{
-  color: var(--yellowOnLight);
+  color: var(--yellowOnDark);
 }
 
 .nav-light .navbar-item::before{
-  background-color: var(--yellowOnLight);
+  background-color: var(--yellowOnDark);
 }
 
 .navbar-content{
