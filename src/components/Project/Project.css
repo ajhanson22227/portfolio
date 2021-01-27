@@ -10,11 +10,12 @@
 }
 
 .topline{
-    width: 125px;
+    width: 75px;
     height: 2px;
     background-color: var(--yellowOnLight);
     margin: auto;
     margin-bottom: 1em;
+    margin-top: 4em;
 }
 
 .top-projects-title{
@@ -67,14 +68,14 @@ img{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 0 2em;
+    margin: 0 0 0 5em;
     /* min-height: 300px; */
     width: 500px;
     min-height: 300px;
 }
 .project-title{
     font-family: jura;
-    font-size: 2em;
+    font-size: 1.8em;
     color: var(--projectTextColor)
 }
 
@@ -82,7 +83,7 @@ img{
     color: var(--projectTextColor);
 }
 .project-tools{
-   color: var(--projectTextColor);
+   color: var(--yellowOnDark);
    justify-self: center;
    font-family: 'Jura';
 }
@@ -100,7 +101,6 @@ img{
 }
 
 .view-button{
-    background-color: #20524F;
     color: var(--projectTextColor);
     border: 2px solid var(--projectTextColor);
     border-radius: 4px;
@@ -127,8 +127,9 @@ img{
 
 
 @media only screen and (max-width: 800px) {
+    .topline{margin: 0 auto 1em auto}
     .project-main-container{
-        padding-top: 5em;
+        padding-top: 6em;
     }
     .project{
         display: flex;
