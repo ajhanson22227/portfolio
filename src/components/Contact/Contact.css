@@ -45,6 +45,9 @@
     margin-bottom: 3em;
 }
 
+.contact-email:hover a{
+    color: var(--yellowOnLight);
+}
 
 .contact-also{
     font-family: 'Open Sans';
