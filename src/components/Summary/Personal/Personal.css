@@ -23,6 +23,10 @@
     width: 50%;
 }
 
+.picon:hover{
+    color: #DDBC45
+}
+
 .personal-about{
     grid-column-start: 2;
     grid-column-end: 3;
