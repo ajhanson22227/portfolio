@@ -70,6 +70,10 @@
     align-self: start;
 }
 
+.summary-container .contact-topline{
+    margin: auto;
+}
+
 .personal-skills-container{
     grid-column-start: 2;
     grid-column-end: 3;
