@@ -5,55 +5,61 @@ import facepic from "../../../assets/boomboom.jpg";
 
 const Personal = () => {
   return (
-    <div className="personal-container">
-      <div className="personal-picture">
-        <img src={facepic} alt="Adam Hanson staring creepily into the camera" />
-      </div>
-
-      <div className="personal-icons df row flex-center">
-        {" "}
-        <a
-          href="https://github.com/ajhanson22227"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github fa-2x picon"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ajhanson22227/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin fa-2x picon"></i>
-        </a>
-      </div>
-
+    <div>
+      <div className="contact-topline"></div>
       <div className="personal-about">ABOUT ME</div>
-
-      <div className="personal-about-content">
-        Hi, I am Adam!
-        <br />I am a fullstack web developer with a degree in Computer Science
-        from Dakota State University. I find it exciting when I run into a
-        problem that I feel could be solved using my programming knowledge. This
-        drive has ended up with helpful projects such as an app used in my
-        current office and a Discord bot that makes some tabletop games easier.
-      </div>
-
-      <div className="personal-skills-title">
-        Languages, Libraries & Frameworks
-      </div>
-      <div className="personal-skills-container">
-        <div className="skills-row">
-          <p className="skill b-right">HTML</p>
-          <p className="skill b-right">CSS</p>
-          <p className="skill b-right">JS</p>
-          <p className="skill b-right">React</p>
-          <p className="skill">NodeJS + Express</p>
+      <div className="personal-container">
+        <div className="personal-picture">
+          <img
+            src={facepic}
+            alt="Adam Hanson staring creepily into the camera"
+          />
         </div>
-        <div className="skills-row">
+
+        <div className="personal-icons df row flex-center">
           {" "}
-          <p className="skill b-right">MongoDB + Mongoose</p>
-          <p className="skill">C++</p>
+          <a
+            href="https://github.com/ajhanson22227"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github fa-2x picon"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ajhanson22227/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin fa-2x picon"></i>
+          </a>
+        </div>
+
+        <div className="personal-about-content">
+          Hi, I am Adam!
+          <br />I am a fullstack web developer with a degree in Computer Science
+          from Dakota State University. I find it exciting when I run into a
+          problem that I feel could be solved using my programming knowledge.
+          This drive has ended up with helpful projects such as an app used in
+          my current office and a Discord bot that makes some tabletop games
+          easier.
+        </div>
+
+        <div className="personal-skills-title">
+          Languages, Libraries & Frameworks
+        </div>
+        <div className="personal-skills-container">
+          <div className="skills-row">
+            <p className="skill b-right">HTML</p>
+            <p className="skill b-right">CSS</p>
+            <p className="skill b-right">JS</p>
+            <p className="skill b-right">React</p>
+            <p className="skill">NodeJS + Express</p>
+          </div>
+          <div className="skills-row">
+            {" "}
+            <p className="skill b-right">MongoDB + Mongoose</p>
+            <p className="skill">C++</p>
+          </div>
         </div>
       </div>
     </div>
