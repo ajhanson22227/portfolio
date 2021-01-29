@@ -7,7 +7,7 @@
 }
 
 .nav-dark{
-  background-color: #3B4341;
+  background-color: var(--projectBackgroundColor);
   color: #56BDB7;
   height: 75px
 }
