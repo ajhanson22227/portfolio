@@ -131,7 +131,7 @@ img{
     .topline{margin: 0 auto 1em auto}
     .project-main-container{
         padding-top: 6em;
-        padding-bottom: 1em;
+        padding-bottom: 2em;
     }
     .project{
         display: flex;
