@@ -130,7 +130,8 @@ img{
 @media only screen and (max-width: 800px) {
     .topline{margin: 0 auto 1em auto}
     .project-main-container{
-        padding-top: 6em;
+        padding-top: 5em;
+        padding-bottom: 0;
     }
     .project{
         display: flex;

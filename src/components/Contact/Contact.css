@@ -64,6 +64,9 @@
 }
 
 @media only screen and (max-width: 802px){
+    .contact-topline{
+        margin-top: 0;
+    }
     .contact-content-container{
         width: 100%;
         
