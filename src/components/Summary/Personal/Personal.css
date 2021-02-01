@@ -129,7 +129,7 @@
 
     .personal-picture{
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 4;
         justify-self: center;
     }
     .personal-picture img{
@@ -137,8 +137,8 @@
     }
 
     .personal-icons{
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
 
     }
     
