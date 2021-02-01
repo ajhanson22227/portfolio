@@ -24,7 +24,7 @@
   width: 70px;
   height: 70px;
   position: absolute;
-  bottom: 1em;
+  bottom: 1.5em;
 }
 .arrow-container:hover{
   cursor: pointer;
