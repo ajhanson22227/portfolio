@@ -36,13 +36,13 @@ const Personal = () => {
 
         <div className="personal-about-content">
           Hi, I am Adam!
-          <br /> I am a fullstack web developer with a degree in Computer
-          Science from Dakota State University. One of my favorite things is
-          running into real world problems with no available solutions. This
-          allows me to create my own which end up being used by others. This
-          passion has led to a couple projects such as a calculator for
-          construction projects used in my office and a Discord bot used by a
-          group of friends for our table-top games.
+          <br /> I am a fullstack developer with a degree in Computer Science
+          from Dakota State University. I love to play video games and disc
+          golf. I also am the kind of person that enjoys running into real world
+          problems with no available solutions. This allows me to create my own
+          which end up being used by others. An example of this is a calculator
+          for construction projects used in my work place and a Discord bot used
+          by a group of friends for our table-top games.
         </div>
 
         <div className="personal-skills-title">
