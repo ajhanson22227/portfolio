@@ -30,8 +30,14 @@
   cursor: pointer;
 }
 
+.arrow-container:hover .arrow{
+  border-color: var(--yellowOnDark);
+  border-width: 0 3px 3px 0;
+  opacity: 1;
+}
+
 .arrow{
-  border: 1px solid var(--yellowOnDark);
+  border: 1px solid whitesmoke;
   border-width: 0 2px 2px 0;
   display: inline-block;
   width: 25px;
